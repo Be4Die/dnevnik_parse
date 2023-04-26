@@ -1,0 +1,18 @@
+{
+  "dnevnik":
+  {
+    "login_with_gosuslugi": "/html/body/div/div/div/div/div/form/div[2]/div[3]/div[5]/div[3]/a[1]",
+    "max_current_peoples": "/html/body/div[2]/div/div[4]/div/ul/li[6]/a",
+    "current_peoples_table": "/html/body/div[2]/div/div[4]/table",
+    "personal_data": "/html/body/div[2]/div/form/div[1]/div[1]",
+    "document": "/html/body/div[2]/div/form/div[1]/div[2]",
+    "contact_data": "/html/body/div[2]/div/form/div[1]/div[3]"
+  },
+  "gosuslugi":
+  {
+    "login_input": "/html/body/esia-root/div/esia-login/div/div[1]/form/div[1]/esia-input/input",
+    "password_input": "/html/body/esia-root/div/esia-login/div/div[1]/form/div[2]/esia-input-password/div/input",
+    "login_btn": "/html/body/esia-root/div/esia-login/div/div[1]/form/div[4]/button",
+    "later_btn": "/html/body/esia-root/div/esia-login/div/div/div/div[4]/button[2]"
+  }
+}

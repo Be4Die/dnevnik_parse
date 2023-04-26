@@ -1,0 +1,12 @@
+{
+  "dnevnik":
+  {
+    "login": "https://login.dnevnik.ru/login/esia/astrakhan",
+    "current_peoples": "https://schools.dnevnik.ru/v2/admin/persons/default?school=21360",
+    "current_peoples_iterations": "https://schools.dnevnik.ru/v2/admin/persons/default?school=21360&group=all&search=&class=&age=0&page="
+  },
+  "gosuslugi":
+  {
+    "login": "https://esia.gosuslugi.ru/login/"
+  }
+}
