@@ -58,6 +58,21 @@ class UrlsProvider(JsonDataProvider):
 class XPathsProvider(JsonDataProvider):
     DATA_PATH = Path("./src/data/XPaths.json").absolute()
 
+    @staticmethod
+    def FullXPathToRelative(parent: str, xpath: str) -> str:
+        return xpath.replace(parent, '')
+
+    @staticmethod
+    def FullXPathsToRelatives(parent: str, xpaths: dict) -> dict:
+        for key in xpaths:
+            obj = xpaths[key]
+            if type(obj) is str:
+                xpaths[key] = XPathsProvider.FullXPathToRelative(parent, xpaths[key])
+            if type(obj) is dict:
+                xpaths[key] = XPathsProvider.FullXPathsToRelatives(parent, xpaths[key])
+
+        return xpaths
+
     def __init__(self):
         JsonDataProvider.__init__(self)
 

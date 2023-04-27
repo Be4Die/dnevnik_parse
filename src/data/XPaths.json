@@ -6,7 +6,61 @@
     "current_peoples_table": "/html/body/div[2]/div/div[4]/table",
     "personal_data": "/html/body/div[2]/div/form/div[1]/div[1]",
     "document": "/html/body/div[2]/div/form/div[1]/div[2]",
-    "contact_data": "/html/body/div[2]/div/form/div[1]/div[3]"
+    "contact_data": "/html/body/div[2]/div/form/div[1]/div[3]",
+    "worker_data": "/html/body/div[2]/div/form/div[1]/div[2]",
+    "personal_data_xpaths":
+    {
+      "last_name": "//*[@id=\"nlast\"]",
+      "first_name": "//*[@id=\"nfirst\"]",
+      "middle_name": "//*[@id=\"nmiddle\"]",
+      "sexM": "//*[@id=\"sexM\"]",
+      "sexF": "//*[@id=\"sexF\"]",
+      "birth_date": "//*[@id=\"birthday\"]",
+      "birth_place": "//*[@id=\"birthplace\"]",
+      "citizenship": "//*[@id=\"citizenshipType\"]",
+      "notes": "//*[@id=\"description\"]"
+    },
+    "worker_data_xpaths":
+    {
+      "work_start_date": "//*[@id=\"entryondutydate\"]",
+      "work_end_date": "//*[@id=\"retirementdate\"]",
+      "teacher_start_date": "//*[@id=\"workaspedagogstartdate\"]"
+    },
+    "document_xpaths":
+    {
+      "snils": "//*[@id=\"personalNumber\"]",
+      "visa": "//*[@id=\"visa\"]",
+
+      "birth_certificate_xpaths":
+      {
+        "series": "//*[@id=\"bcert_docpref\"]",
+        "number": "//*[@id=\"bcert_docnum\"]",
+        "issued_by": "//*[@id=\"bcert_issby\"]",
+        "issued_date": "//*[@id=\"birthcertificatedate\"]",
+        "issued_place": "//*[@id=\"bcert_place\"]",
+        "act_number": "//*[@id=\"bcert_recnum\"]"
+      },
+
+      "passport_xpaths":
+      {
+        "series": "//*[@id=\"idoc_docpref\"]",
+        "number": "//*[@id=\"idoc_docnum\"]",
+        "issued_by": "//*[@id=\"idoc_issby\"]",
+        "issued_date": "//*[@id=\"legaldocissueddate\"]",
+        "issued_place": "//*[@id=\"place\"]"
+      }
+    },
+    "contact_data_xpaths":
+    {
+      "permanent_address": "//*[@id=\"RegAddress\"]",
+      "temporary_address": "//*[@id=\"TempAddress\"]",
+      "temporary_address_end_date": "//*[@id=\"tempaddrduedate\"]",
+      "fact_address": "//*[@id=\"ActualAddress\"]",
+      "email": "//*[@id=\"email\"]",
+      "work_phone": "//*[@id=\"wphone\"]",
+      "mobile_phone": "//*[@id=\"mobliephone\"]",
+      "home_phone": "//*[@id=\"hphone\"]"
+    }
   },
   "gosuslugi":
   {
